@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KONEKSI API KE MONGODB</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="../image/logo_nomensen1.png">
+</head>
+<body>
+    <img src="../image/logo_nomensen.png" alt="Logo Nomensen" style="max-width: 150px; display: block; margin: 0 auto 20px auto;">
+    <h1>SILAHKAN MASUKAN DATA BARANG</h1>
+
+    <section>
+        <h2>Tambah Data Barang</h2>
+        <form id="addItemForm">
+            <label for="itemName">Name:</label>
+            <input type="text" id="itemName" required><br><br>
+
+            <label for="itemDescription">Description:</label>
+            <textarea id="itemDescription"></textarea><br><br>
+
+            <button type="submit">Tambah Data</button>
+        </form>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Daftar Barang</h2>
+        <ul id="itemList">
+            </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
